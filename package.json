@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git@github.com:iangreenleaf/githubot.git"
   },
-  "main": "./lib/githubot",
+  "main": "./src/githubot",
   "scripts": {
     "prepublish": "coffee -o lib -c src && cat .gitignore | grep -v '^lib$' > .npmignore",
     "test": "make test"
